@@ -6,10 +6,7 @@ def gauk_sumas_b(*args, info=False):
     for elem in args:
         if elem % 2 == 0:
             suma_lyginiu = elem
-            lyginiai.append(elem)
-        else:
-            suma_nelyginiu = elem
-            nelyginiai.append(elem)
+
     if info:
         print(f"Visi ivesti skaiciai {list(args)}")
         print(f"skaiciai lyginiai {lyginiai}")

@@ -1,7 +1,6 @@
 def kaupk_aritmetika(*args, operacija="suma"):
     if len(args) < 2:
         return args
-    if operacija == "suma":
         return sum(args)
     elif operacija == "atimtis":
         return args[0] - sum(args[1:])
