@@ -1,4 +1,4 @@
-def gauk_sumas_b(*args, info=False):
+def gauk_sumas_b(*args: int, info=False):
     suma_lyginiu = 0
     suma_nelyginiu = 0
     lyginiai = []
